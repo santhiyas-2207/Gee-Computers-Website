@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav .logo{
+    height: 80px;
+    width: 80px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+body{
+    font-family: "Forum", serif; 
+    color: white;
+}
+#main{
+    background-image: url(./images/wall.jpg);
+    min-height: 60vh;
+    width: 100%;
+    background-position:bottom center;
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+}
+
+.main-container{
+    max-width: 1200px;
+    padding: 16px;
+    margin: auto; 
+}
+section{
+    margin: 80px auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list{
+     display: flex;
+     flex-direction: row;
+     list-style: none;
+     gap: 30px;
+     align-items: center;
+     width: 80%;
+     justify-content: flex-end;
+}
+.nav-list a{
+    color: white;
+    font-weight: bold;
+    transition: 0.5s ease;
+    font-size: 15px;
+}
+.nav-list a:hover{
+    color: orangered;
+}
+.btn{
+    padding: 12px 20px;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn-secondary{
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+}
+.btn-secondary:hover{
+    color:orangered;
+    border:2px solid orangered;
+}
+.main-content button{
+    margin-bottom: 10px;
+}
+.btn-primary{
+    border: none ;
+    background-color:#ff4d94;
+    color:white;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    background-color:#e6005c;
+    color:white;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    color: white;
+}
+.main-content .intro-heading{
+    font-size: 50px;
+}
+.main-content .main-heading{
+    font-size: 50px;
+    margin-top: -10px;
+}
+.main-content p{
+    max-width: 250px;
+    margin-bottom: 10px;
+    line-height: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+nav img{
+    height: 50px;
+    width: 50px;
+}
+.menu-btn{
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    display: none;
+    width: 30px;
+    height: 40px;
+}
+.service-container {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 70em;
+}
+#nav{
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+body{
+    font-family:inherit;
+}
+.maincontent{
+    background:white;
+}
+.titlebar{
+    color:#ed786a;
+    font-family:'Arvo';
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+    letter-spacing: 1rem;
+    text-shadow:2px 2px #d9d9d9;
+}
+.titlebar1{
+    text-align: center;
+    color:inherit;
+    font-size: 25px;
+    padding-top: 38px;
+    letter-spacing: 0.2rem;
+    font-family:'Arvo';
+}
+
+.photos h2{
+    text-align: center;
+    color: deeppink;
+    padding: 1px;
+    margin-top: 4%;
+    font-size: 40px;
+}
+.photo{
+    margin-top: 6%;
+    letter-spacing: 1px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.photo div{
+    width: 200px;
+    flex-basis: 25%;
+    color:inherit;
+    margin: 10px;
+    font-size: 0.8rem;
+    flex-grow: 1;
+    font-family:'Arvo';
+    letter-spacing: 0.1rem;
+    padding: 10px;
+}
+.photo h1{
+    color:darkcyan;
+    font-size: 20px;
+}
+.pythonimg{
+    margin-top: 5%;
+    padding-bottom: 5%;
+}
+.pythonimg h2{
+    text-align: center;
+    color: deeppink;
+}
+.pythonimg h4{
+    padding-top: 25px;
+    color: darkblue;
+    text-align: center;
+    padding-bottom: 15px;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+}
+.photos .linee{
+    width: 190px;
+    height: 3px;
+    border: 2px;
+    background: darkblue;
+    margin: auto;
+}
+.videocontainer{
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.section-title h1{
+    font-size: 50px;
+    text-align: center;
+    color: deeppink;
+}
+.section-title .line{
+    width: 150px;
+    height: 4px;
+    border: 10px;
+    background: darkblue;
+    margin: auto;
+}
+.services{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.service{
+    width: 350px;
+}
+.service img{
+    max-width: 100%;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+.service img:hover{
+    transform: scale(1.05);
+}
+.service h3{
+    color:deeppink;
+    text-align: center;
+    font-family: "Poppins";
+}
+.service p{
+    color:darkblue;
+    font-weight: bold;
+    line-height: 1.5rem;
+    padding: 10px;
+    text-align: center;
+}
+#testimonial{
+    background-color: #dee0ec;
+    width: 100%;
+}
+#testimonial .testimonial-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    gap: 30px;
+    padding: 40px 16px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+#testimonial h1{
+    font-size: 30px;
+    text-align: center;
+    color: darkmagenta;
+    font-family: "Poppins";
+    display: flex;
+}
+#testimonial .profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#testimonial h4{
+    color:darkcyan;
+}
+footer{
+    
+}
+footer .container{
+    display: flex;
+    padding: 20px 16px;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-links{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    list-style: none;
+}
+.footer-links a{
+    color:green;
+    font-weight: bold;
+}
+
+footer p{
+    color: green;
+    font-weight: bold;
+}
+footer i{
+    color: orangered;
+    padding: 5px;
+    font-weight: bold;
+}
+.address{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    max-width: 100%;
+    justify-content: flex-end;
+    gap: 30px;
+    padding-bottom: 30px;
+}
+.address p{
+    color:darkblue;
+    letter-spacing: 0.1rem;
+}
+*{
+    box-sizing: border-box;
+}
+.mainFormContainer{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgoldenrodyellow;
+}
+.formContainer{
+    width: 350px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    height: 75%;
+}
+.formContainer input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+    font-size: 16px;
+    outline: none;
+}
+.formContainer h2{
+    color: black;
+    margin-bottom: 22px;
+    text-decoration: underline darkcyan;
+}
+.formContainer textarea{
+    width: 100%;
+    height: 100px;
+}
+.btnn{
+    border: none;
+    cursor: pointer;
+    background-color: #32cd9c;
+    font-size: 16px;
+    width: 100%;
+    padding: 14px;
+    margin-top: 10px;
+}
+.btnn:hover{
+    background-color: #1f7d5f;
+    color: white;
+}
+
+@media screen and (max-width:600px) {
+    
+     .menu-btn{
+        display: block;
+        cursor: pointer;
+     }
+    .nav-list{
+        flex-direction: column;
+        background-color: lightseagreen;
+        position: absolute;
+        top: 0;
+        right: -900px;
+        width: 60%;
+        height: 70vh;
+    }
+    .nav-list.active{
+        right: 0;
+    }
+    .nav-list li:not(:last-child){
+        text-align: left;
+        width: 100%;
+        padding: 10px 30px;
+        border-bottom: 1px solid white;
+    }
+    #testimonial{
+        width: 100%;
+    }
+    #testimonial .testimonial-container{
+        padding: 20px;
+        margin: 20px;
+    }
+    #services{
+        width: 350px;
+    }
+    .service p{
+        font-size: 18px;
+    }
+    .photo img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    footer .container{
+        flex-direction: column;
+        gap: 16px;
+    }
+    .formContainer{
+        width: 250px;
+        height: 60%;
+    }
+    .videocontainer iframe{
+      width: 200px;
+      height: 200px;
+    }
+}
+
+ 

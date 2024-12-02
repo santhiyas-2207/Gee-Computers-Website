@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gee Computers</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <div class="main-container">
+            <nav>
+                <img src="./images/gee.jpg" alt="" class="logo">
+                <ul class="nav-list">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./english.html">Spoken English</a></li>
+                    <li><a href="./course.html">Computer Courses</a></li>
+                    <li><a href="./python.html">Online Classes</a></li>
+                    <li><button class="btn btn-secondary">9092123113</button></li>
+                </ul>
+                <img src="./images/menu.jpg" alt="" class="menu-btn" height="50px" width="50px">
+            </nav>
+            <div class="main-content">
+                <h1 class="intro-heading">Gee</h1>
+                <h1 class="main-heading">Computers</h1>
+                <p>Knowledge has to be
+                    improved, challenged,
+                    and  increased 
+                    constantly, or it 
+                    vanishes.</p>
+                <a href="./form.html"><button class="btn-primary">Join Us</button></a>
+            </div>
+        </div>
+    </div>
+    <section id="services">
+        <div class="service-container">
+            <div class="section-title">
+                <h1>Our Services</h1>
+                <div class="line"></div>
+            </div>
+             <div class="services">
+                <div class="service">
+                  <a href="./course.html"><img src="./images/computer.jpg" alt="" height="300px" width="300px">
+                    <h3>Computer Courses</h3>
+                    <p>Ms Office,Python,Tally 9 ERP with GST, <br>C C++,PHP,HTML,JAVA,
+                        Dot Net,MySQL,PhotoShop,<br>Coreldraw,DTP,DCS,PGDCA,<br>
+                        Full Stack Development.
+                    </p></a>
+                </div>
+                <div class="service">
+                  <a href="./english.html"><img src="./images/spoken.jpg" alt="" height="300px" width="300px"></a>
+                    <h3>Spoken English</h3>
+                    <p>*Specially Designed for Tamil Medium Students. <br>
+                        *British Council Certification. <br>
+                        *Fluency is Guarantee.
+                    </p>
+                </div>
+                <div class="service">
+                    <a href="./english.html"><img src="./images/spoken2.jpg" alt="" height="300px" width="300px"></a>
+                    <h3>Online Classes</h3>
+                    <p>Online Classes for Spoken English & <br> Computer Courses.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="testimonial">
+        <div class="testimonial-container">
+            <h1> “Education is the most powerful weapon which you can use to change the world.” </h1>
+            <div class="profile">
+                <h4>-Nelson Mandela</h4>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <ul class="footer-links">
+                <li><a href="./index.html">Home</a></li>
+                 <li><a href="">About</a></li>
+                 <li><a href="">Services</a></li>
+                 <li><a href="">Contact</a></li>
+            </ul>
+            <img src="./images/gee.jpg" alt="" height="100px" width="100px">
+            <p><a href="https://www.instagram.com/kovilpatti.english/" target="_blank"><i class="fa-brands fa-square-instagram"></i>geecomputers</p></a>
+            <p><a href="https://www.youtube.com/playlist?list=PLwjfsIwHThd5DN_bkDjmUF4QSSabo2idR" target="_blank"><i class="fa-brands fa-youtube"></i>Gee Computers</p></a>
+            <p><a href="https://www.facebook.com/profile.php?id=100011974246493" target="_blank"><i class="fa-brands fa-facebook"></i>Learnc with Gee</p></a>
+
+        </div>
+        <div class="address">
+            <p>593/14,Main Road,Opposite Bus Stand,Annai Jewellers Upstairs, <br>
+                Kovilpatti-628502 Ph:04632 228622,9486629601
+            </p>
+        </div>
+    </footer>
+    <script>
+        const navBtn=document.querySelector(".menu-btn")
+        const navList=document.querySelector(".nav-list")
+
+        navBtn.addEventListener("click",function(){
+            navList.classList.toggle("active");
+        })
+    </script>
+</body>
+</html>
